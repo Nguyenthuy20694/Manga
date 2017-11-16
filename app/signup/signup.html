@@ -1,0 +1,22 @@
+<div class = "body">
+        
+                 <div class="Signin" (keyup.enter)="signup()">
+                        <ul>
+                            <li><a class="info"><span class="info-title">Email </span> <input class ="input" type="email" placeholder="Email Address" [(ngModel)]="email"> </a></li>
+                            <li><a class="info"><span class="info-title">Name </span> <input class ="input" type="text" placeholder="User Name" [(ngModel)]="name"  > </a></li>
+                            <li><a class="info"><span class="info-title">Address </span> <input class ="input" type="text" placeholder="Address" [(ngModel)]="address"  > </a></li> 
+                            <li><a class="info"><span class="info-title">Password </span> <input class ="input" type="password" placeholder="Password - 6 digit"[(ngModel)]="password"  > </a></li>  
+                            <li><a class="info"><span class="info-title">Password-confirm </span> <input class ="input" type="password" placeholder="Password confirm"[(ngModel)]="password_confirm"  > </a></li>          
+                        </ul>
+                        <div class="signin-quit">
+                        <ul>
+                            
+                        <li ><button class="login" (click)="signup()">Sign Up</button></li>
+                        <li><button class="quit" (click)="quit()">Quit</button></li>
+                            </ul>
+                        </div>
+                            
+                    </div>
+             </div>   
+        
+          

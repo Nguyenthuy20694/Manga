@@ -1,0 +1,62 @@
+.body{
+    width: 1041px;
+    margin: 40px auto;
+    opacity: 1.5;
+    background: rgba(158, 158, 158, 0.1);
+    min-height: 500px;
+}
+.boxslide{
+    margin: 20px auto;
+    height: auto;
+    display: inline-block;
+    width: 100%;
+     text-align: center
+}
+.item{
+    margin: 20 auto;
+    /*margin-left: -35px;*/
+    height: 220px;
+    z-index: 999;
+   
+}
+
+.imagemanga{
+    width: 129px;
+    height: 184px;  
+}
+
+.contentmanga{
+    white-space: nowrap; 
+    width: 12em; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    margin: 5px auto;
+    color: black;
+    background: none;
+    border: none;
+    font-size: 17px;
+}
+.contentmanga:hover{
+    color: deepskyblue;   
+}
+.boxslide ul{
+    display: inline-block;
+}
+.story-name{
+    width: 1041px;
+    margin: 40px auto;
+     opacity: 1.5;
+     height: 38px;
+    background: rgba(158, 158, 158, 0.1);
+}
+.quanli{
+     background: rgba(158, 158, 158, 0.1);
+     color: wheat;
+     float: right;
+     margin-top: 9px;
+     margin-right: 13px;
+}
+/*.divimgsmanga:hover{
+    border : 1px solid deepskyblue;
+}*/
+

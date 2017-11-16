@@ -1,0 +1,20 @@
+ <div class = "body">
+
+         <div class="Signin" (keyup.enter)="login()">
+                <ul>
+                    <li><a class="info"><span class="info-title">Email </span> <input class ="input" type="email" [(ngModel)]="email"  > </a></li>
+                    <li><a class="info"><span class="info-title">Password </span> <input class ="input" type="password" [(ngModel)]="password"  > </a></li>      
+  
+                </ul>
+                <div class="signin-quit">
+                <ul>
+                    
+                <li ><button class="login" (click)="signin()" >Sign In</button></li>
+                <li><button class="quit" (click)="home()">Quit</button></li>
+                    </ul>
+                </div>
+                    
+            </div>
+     </div>   
+
+  

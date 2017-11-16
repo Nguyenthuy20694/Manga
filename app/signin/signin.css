@@ -1,0 +1,84 @@
+html {
+	font-family:sans-serif;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%
+}
+body {
+	margin:0px;
+    
+}
+
+.body{
+    width: 1041px;
+    margin: 40px auto;
+    opacity: 1.5;
+    background: rgba(158, 158, 158, 0.1);
+    min-height: 500px;
+}
+
+.Signin{
+    padding-top: 88px;
+    width: 53%;
+    height: 180px;
+    margin: auto;
+}
+
+.Signin ul li{
+    list-style: none;
+    margin-top: 20px;
+    text-decoration: none;
+     z-index:254444444444;
+    position:relative;
+    cursor:pointer;
+}
+.info{
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 16px;
+}
+.info-title{
+    color:black;
+    font-size: 16px;
+    margin-left: 0px;
+}
+.signin-quit ul li{
+    list-style: none;
+    padding-right: 20px;
+    margin-top: 12px;
+    text-decoration: none;
+    z-index: 254444444444;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 18%;
+}
+.login{
+   background: rgba(3, 169, 244, 0.12);
+    width: 77px;
+    height: 37px;
+    color: black;
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-left: 94px;
+}
+.quit{
+   background: rgba(3, 169, 244, 0.12);
+    width: 77px;
+    height: 37px;
+    color: black;
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.input{
+    margin-top: -5px;
+    height: 29px;
+    background: rgba(3, 169, 244, 0.12);
+    color: black;
+    font-size: 15px;
+    font-family: "Times New Roman", Georgia, Serif;
+    border-radius: 5px;
+    float: right;
+    width: 75%;
+    
+}

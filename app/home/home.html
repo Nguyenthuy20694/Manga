@@ -1,0 +1,20 @@
+<div class="col-xs-10 col-xs-offset-1 text-center">
+  <div id="mangas">
+<div class="page-header">
+</div>
+<div id="mainContent" style="position: relative; height: 0px;">
+</div> 
+<div class="boxslide"  >
+  <ul [hidden]="no_result" class="item"  *ngFor="#manga of output" >
+         <div class="divimgsmanga" >
+              <img  title="{{manga.name}}" class="imagemanga" src="app/res/manga_image/{{manga.image_link}}" (click)="detail(manga.manga_id)">
+             </div>
+    <div class="divcontentmanga">
+      <li><button title="{{manga.name}}" class = "contentmanga" (click)="detail(manga.manga_id)">{{manga.name}}</button></li>
+    </div>   
+  </ul>
+  <p [hidden]="have_result"> No Results Found </p>
+</div>
+              
+</div>
+</div>	

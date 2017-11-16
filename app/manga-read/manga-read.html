@@ -1,0 +1,33 @@
+<div class="story-name"><p class="title-name"><a class="hover" (click)="home()">Manga </a>>> <a  class="hover" (click)="detail(manga_id)">{{manga_name}} </a> >> <span style="color:#0089C4">{{chapter_name}}</span></p></div>
+
+ 
+    <div class="infomanga">
+         <ul>
+              <img class="imagemangas" src="app/res/manga_image/{{chapter_image_link}}">
+             <li><a class="contentmanga">{{chapter_name}}</a>
+           
+         </ul>
+          <div class="choose-chapter">
+         <div >
+             <select [(ngModel)]="chaps" >
+                 <option *ngFor="#chapter of chapter_list">{{chapter.name}}</option>
+                 </select>
+                 <button class="read-down" (click)="chapter()">Đọc</button>
+             </div>
+     </div>
+     
+             
+     </div>
+     <div class="body">
+     <div class="view-story">
+         <ul class="item"  *ngFor="#list_image of chapter_image" >
+         <img  class="imagemanga" src="app/res/manga_image/{{list_image.image_link}}">
+       
+       
+       </ul>
+     <div class="next-prev"></div>
+     <button class="previous" [hidden]="firstchap" (click)="previous()"> << Previous Chapter</button>
+     <button class="next"[hidden]="lastchap"  (click)="next()">Next Chapter >></button>
+     
+     </div>
+     </div>

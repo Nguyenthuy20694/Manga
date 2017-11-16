@@ -1,0 +1,23 @@
+<div class="navbar">
+    <div class="container">
+        <div class="navbar-inner" >
+            <a class="brand btn" href=""><img style="height: 40px; width: 40px;" src="app/res/manga-icon.png"> <p>Manga</p></a>
+            <div [hidden]="logins" id="login-button"  > <button  class="btn btn-default pull-right" (click)="signin()">Sign In</button></div>
+            <div [hidden]="logins" id="login-button" > <button  class="btn btn-default pull-right" (click)="signup()">Sign Up</button></div>
+            <div [hidden]="!logins" id="login-button" > <button   class="btn btn-default pull-right" (click)="signout()">Sign Out</button></div>
+                    </div>
+                <div class="search">
+                 <input class ="search-input" placeholder=" Keyword Search Input" type="text" [(ngModel)]="search_keyword" (keyup.enter)="search(search_keyword)">
+                 <!-- <i id ="icon-search" class="fa fa-search fa-lg" (click)="search()"></i> -->
+                </div>
+    
+    </div>
+</div>
+<div class="container-fluid">
+                    <ul *ngFor="#category of category_list" class="divcontentname">
+                            <div class="col-xs-12 text-center">
+                            <li id="categories"><button class="btn btn-default" (click)="filtermanga(category.category_id)">{{category.name}}</button></li>
+                            </div>
+                    </ul>
+    
+</div>

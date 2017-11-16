@@ -1,0 +1,54 @@
+  
+<div class="story-name"><p class="title-name"><a class="hover" (click)="home()">Manga</a> >> <span style="color:#0089C4">{{name}}</span></p></div>
+          <div class="body">
+        <div class="story-info">
+            <!-- <img class="imagemanga" src={{story.linkanh}}> -->
+            <img class="imagemanga" src="app/res/manga_image/{{image_link}}">
+            <div class="infomanga">
+                <ul>
+                    <li><a class="contentmanga1">{{name}}</a>
+                    <li><a class="info"><span class="info-title">Author :</span> {{author}}</a></li>
+                    <li><a class="info"><span class="info-title">Category :</span> {{category}}</a></li>
+                    <li><a class="info"><span class="info-title">Country :</span> {{country}}</a></li>
+                    <li><a class="info"><span class="info-title">Publish date :</span> {{publish_date}}</a></li>
+                    <li><a class="info"><span class="info-title">Review :</span> {{review}} </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="choose-chapter">
+                <p class="choose-title">Choose Chapter</p>
+                <div>
+                    <select  [(ngModel)]="chap">
+                        <option *ngFor="#chapter of chapter_list">{{chapter.name}}</option>
+                        </select>
+                    <div class="read-downclass">
+                            <ul> 
+                            <li ><button class="read-down" (click)="read()">Read</button></li>
+                                </ul>
+                            </div>
+                        </div>
+            </div>
+      
+  </div>
+  <div class="body">
+        <p class="choose-title">List Chapter</p>
+        <div class="boxslide"  >
+         
+               <ul *ngFor="#chapter of chapter_list" class="divcontentname">
+                   <div class="divimgsmanga" >
+             <img  title="{{chapter.name}}" class="imagemanga1" src="app/res/manga_image/{{chapter.image_link}}" (click)="reads(chapter.chapter_id)">
+                </div>
+                   <li><a class="contentmanga"  title="{{chapter.name}}" (click)="reads(chapter.chapter_id)" >{{chapter.name}}</a></li>
+               </ul>
+           </div>
+<p class="choose-title">Other Manga</p>
+        <div class="boxslide"  >
+               <ul *ngFor="#manga of manga_list" class="divcontentmanga">
+                   <div class="divimgsmanga" >
+             <img  title="{{manga.name}}" class="imagemanga1" src="app/res/manga_image/{{manga.image_link}}" (click)="detail(manga.manga_id)">
+                </div>
+                   <li><a class="contentmanga"  title="{{manga.name}}" (click)="detail(manga.manga_id)">{{manga.name}}</a></li>
+               </ul>
+           </div>
+     </div>
+                  

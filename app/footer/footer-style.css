@@ -1,0 +1,44 @@
+.footer{
+    display: inline-block;
+    opacity: 1.5;
+    width: 100%;
+    background: rgba(158, 158, 158, 0.1);
+}
+.footer-box{
+    font-family: "Times New Roman", Georgia, Serif;
+    float: left;
+    width: 339px;
+    margin-top: 0px;
+    margin-left: 32px;
+    font-size: 15px;
+
+}
+h4{
+    color: deepskyblue;  
+}
+
+.text{
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 16px;
+    
+}
+.footer-copyright{
+    float: right;
+    margin-right: 40px;
+    font-size: 12px;
+    margin-top:2%;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+.truyentranhmoi{
+    color: deepskyblue;  
+    font-family: "Times New Roman", Georgia, Serif;
+    font-style: oblique;
+    font-size: 45px;
+}
+/*.copyright{
+    margin-top: 44px;
+}*/
+.image-footer{
+    text-align: center;
+    z-index: 999;
+}

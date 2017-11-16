@@ -1,0 +1,139 @@
+.body{
+    width: 1041px;
+    margin: 40px auto;
+    opacity: 1.5;
+    background: rgba(158, 158, 158, 0.1);
+    min-height: 500px;
+}
+.story-name{
+    width: 1041px;
+    margin: 40px auto;
+     opacity: 1.5;
+     height: 38px;
+    background: rgba(158, 158, 158, 0.1);
+}
+.title-name{
+    padding-top: 9px;
+    padding-left: 19px;
+     cursor: pointer;
+}
+.infomanga{
+    margin-top: 0px;
+    width: 773px;
+    float: left;
+    margin-left: 22%;
+ 
+}
+.imagemangas{
+    width: 129px;
+    height: 184px;  
+}
+.contentmanga{
+    white-space: nowrap; 
+    width: 12em; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    color: deepskyblue;
+    font-size: 25px;
+}
+.infomanga ul li{
+    list-style: none;
+    margin-right: 20px;
+    margin-top: 12px;
+    text-decoration: none;
+     z-index:254444444444;
+    position:relative;
+    cursor:pointer;
+}
+.info{
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 15px;
+}
+.info-title{
+    color:black;
+    font-size: 16px;
+    margin-left: 0px;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+
+.choose-chapter{
+     width: 1041px;
+     /*background: yellow;*/
+     float: left;
+}
+.choose-title{
+    color:#0089C4 ;
+    font-size: 23px;
+    margin-left: 39px;
+}
+.choose-chapter select{
+    margin-left: 346px;
+    width: 341px;
+    height: 30px;
+    margin-top: 0px;
+    background: #ffffff;
+    color: black;
+    border-radius: 5px;
+}
+.view-story{
+     margin: 20px auto;
+    height: auto;
+    display: inline-block;
+    width: 100%;
+     text-align: center
+}
+.item{
+    margin: 20 auto;
+    border : 5px solid #0089C4 ;
+    width: 630px;
+    
+   
+}
+
+.imagemanga{
+     margin-top: 20px;
+     margin-left: -33px;
+    width: 600px;
+    height: 700px;  
+}
+.next-prev{
+    width: 100%;
+    height: 50px;
+    /*background: red;*/
+}
+.previous{
+    width: 15%;
+    height: 30px;
+    color: black;
+    background: #ffffff;
+     float: left;
+     margin-left: 20px;
+}
+.next{
+    width: 15%;
+    height: 30px;
+    color: black;
+    background: #ffffff; 
+     float: right;
+     margin-right: 20px;
+}
+option { 
+    background: white;
+    color: black;
+       font-size: 15px;
+       font-family: "Times New Roman", Georgia, Serif;
+}
+.read-down{
+    background: #ffffff;
+    width: 77px;
+    height: 37px;
+    color: black;
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.hover:hover{
+    color: deepskyblue;  
+    
+}
